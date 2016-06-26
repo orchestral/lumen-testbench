@@ -1,0 +1,35 @@
+{
+    "name": "orchestra/lumen-testbench",
+    "description": "Lumen Package Testing Helper",
+    "keywords": ["lumen", "orchestral", "orchestra-platform", "testing", "tdd", "bdd"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com",
+            "homepage": "https://github.com/crynobone"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Orchestra\\Lumen\\Testbench\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "laravel/lumen-framework": "~5.2.7"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "~4.8|~5.0"
+    },
+    "suggest": {
+        "phpunit/phpunit": "Allow to use PHPUnit for testing your Laravel Application/Package (~4.0|~5.0)."
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.2-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
